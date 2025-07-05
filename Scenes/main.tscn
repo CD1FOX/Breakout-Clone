@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b2q7ss468w3vj"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Paddle" type="Node2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="Paddle"]
+offset_left = -160.0
+offset_right = 160.0
+offset_bottom = 20.0
